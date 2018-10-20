@@ -7,15 +7,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!Hello') {
-    	message.reply('hi');
+    	message.reply('hi mother fuckers :D');
   	}
 });
-});
-
-client.on('message', message => {
-    if (message.content === '!Ping ') {
-    	message.reply('Pong motherfucker >:v');
-  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
