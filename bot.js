@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!Hello') {
+    if (message.content === 'Hello') {
     	message.reply('hi mother fuckers :D');
   	}
 });
