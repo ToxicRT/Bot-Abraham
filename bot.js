@@ -19,11 +19,13 @@ client.on('message', message => {
   	}
 });
 
+
 client.on('message', message => {
-    if (message.content === 'string don't work') {
-    	message.reply('dm @AbrahaMatheus#9020 he will give you a solution :D');
+    if (message.content === 'string dont work') {
+    	message.reply('dm @abrahamatheus for a solution');
   	}
 });
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
