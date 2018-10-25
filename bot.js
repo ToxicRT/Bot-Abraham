@@ -19,7 +19,6 @@ client.on('message', message => {
   	}
 });
 
-
 client.on('message', message => {
     if (message.content === 'string dont work') {
     	message.reply('dm @abrahamatheus for a solution');
