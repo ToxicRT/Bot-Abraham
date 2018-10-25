@@ -1,5 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const client = new Discord.Client({disableEveryone: True});
+
+//require all dependencies
 
 client.on('ready', () => {
     console.log('Ready D:!');
