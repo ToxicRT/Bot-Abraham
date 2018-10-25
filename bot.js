@@ -5,9 +5,7 @@ const client = new Discord.Client({disableEveryone: True});
 //require all dependencies
 
 client.on('ready', () => {
-    console.log('Ready D:!');
-    bot.user.setActivity("No Prefix :/", {type: "WATCHING"});
-    
+    console.log('Ready D:!');    
 });
 
 client.on('message', message => {
