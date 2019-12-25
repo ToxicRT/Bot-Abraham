@@ -4,26 +4,26 @@ const client = new Discord.Client();
 //require all dependencies
 
 client.on('ready', () => {
-    console.log('Ready D:!');    
+    console.log('¡Listo para usar!');    
 });
 
 client.on('message', message => {
     if (message.content === 'Hello') {
-    	message.reply('hi mother fucker :D');
+    	message.reply('Hi:D'); // Respondera al mensaje
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'i need help') {
-    	message.reply('For what ?');
+    if (message.content === 'Help') {
+    	message.reply('Command in progress.');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'string dont work') {
-    	message.reply('dm @abrahamatheus for a solution');
+    	message.reply('Send dm @abrahamatheus for a solution');
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
+// Con esto se iniciara sesion al bot 
 client.login(process.env.BOT_TOKEN);
